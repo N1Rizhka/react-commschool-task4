@@ -1,355 +1,543 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/styles/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Space Grotesk"
-      rel="stylesheet"
-    />
-    <title>Document</title>
-  </head>
-  <body>
-    <header class="container mt-60">
-      <nav>
-        <div class="flex justify-between align-center">
-          <div>
-            <img src="./src/img/logo.svg" alt="logo" />
-          </div>
-          <div class="flex align-center gap-40">
-            <ul class="flex gap-40">
-              <li><a class="pXL" href="#">About us</a></li>
-              <li><a class="pXL" href="#">Services</a></li>
-              <li><a class="pXL" href="#">Use Cases</a></li>
-              <li><a class="pXL" href="#">Pricing</a></li>
-              <li><a class="pXL" href="#">Blog</a></li>
-            </ul>
-            <button class="btn_secondary">Request a quote</button>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <section class="mt-70 container">
-      <div class="flex justify-between align-center">
-        <div class="flex flex-col gap-40 w-50">
-          <h1 class="hXL font-semibold">
-            Navigating the digital landscape <br />
-            for success
-          </h1>
-          <p class="pXL font-light">
-            Our digital marketing agency helps businesses grow and succeed
-            online through a range of services including SEO, PPC, social media
-            marketing, and content creation.
-          </p>
-          <button class="btn_primary w-50">Book a consultation</button>
-        </div>
-        <div class="w-40">
-          <img src="./src/img/banner.svg" alt="banner image" />
-        </div>
-      </div>
-    </section>
-    <section class="mt-70 container">
-      <div class="flex justify-between">
-        <img class="w-10 filtered" src="./src/img/amazon.svg" alt="feature1" />
-        <img class="w-10 filtered" src="./src/img/driblle.svg" alt="feature1" />
-        <img class="w-10 filtered" src="./src/img/hubspot.svg" alt="feature1" />
-        <img class="w-10 filtered" src="./src/img/notion.svg" alt="feature1" />
-        <img class="w-10 filtered" src="./src/img/netflix.svg" alt="feature1" />
-        <img class="w-10 filtered" src="./src/img/zoom.svg" alt="feature1" />
-      </div>
-    </section>
 
-    <!-- section for cards -->
-    <section class="mt-140 container">
-      <div class="flex gap-40 align-center">
-        <h2 class="hL text_box font-semibold green">Services</h2>
-        <p class="pL font-light">
-          At our digital marketing agency, we offer a range of services to
-          <br />
-          help businesses grow and succeed online. These services include:
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./src/styles/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Space Grotesk" rel="stylesheet" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="container mt-60">
+    <nav>
+      <div class="flex space_between align-center">
+        <div>
+          <img src="./src/img/logo.svg" alt="logo" />
+        </div>
+        <div class="flex align-center gap-40">
+          <ul class="flex gap-40">
+            <li><a class="pXL" href="#">About us</a></li>
+            <li><a class="pXL" href="#">Services</a></li>
+            <li><a class="pXL" href="#">Use Cases</a></li>
+            <li><a class="pXL" href="#">Pricing</a></li>
+            <li><a class="pXL" href="#">Blog</a></li>
+          </ul>
+          <button class="btn_secondary">Request a quote</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="mt-70 container">
+    <div class="flex space_between align-center">
+      <div class="flex flex-col gap-40 w-50">
+        <h1 class="hXL font-semibold">
+          Navigating the digital landscape <br />
+          for success
+        </h1>
+        <p class="pXL font-light">
+          Our digital marketing agency helps businesses grow and succeed
+          online through a range of services including SEO, PPC, social media
+          marketing, and content creation.
+        </p>
+        <button class="btn_primary w-50">Book a consultation</button>
+      </div>
+      <div class="w-40">
+        <img src="./src/img/banner.svg" alt="banner image" />
+      </div>
+    </div>
+  </section>
+  <section class="mt-70 container">
+    <div class="flex space_between">
+      <img class="w-10 filtered" src="./src/img/amazon.svg" alt="feature1" />
+      <img class="w-10 filtered" src="./src/img/driblle.svg" alt="feature1" />
+      <img class="w-10 filtered" src="./src/img/hubspot.svg" alt="feature1" />
+      <img class="w-10 filtered" src="./src/img/notion.svg" alt="feature1" />
+      <img class="w-10 filtered" src="./src/img/netflix.svg" alt="feature1" />
+      <img class="w-10 filtered" src="./src/img/zoom.svg" alt="feature1" />
+    </div>
+  </section>
+
+  <!-- section for cards -->
+  <section class="mt-140 container">
+    <div class="flex gap-40 align-center">
+      <h2 class="hL text_box font-semibold green">Services</h2>
+      <p class="pL font-light">
+        At our digital marketing agency, we offer a range of services to
+        <br />
+        help businesses grow and succeed online. These services include:
+      </p>
+    </div>
+    <!-- Div For Learn More Rectangles  -->
+    <div class="flex gap-40 align-center mt-60 flex-wrap">
+
+      <!-- SEO rectangle -->
+      <div class="bg-gray p-50 border border-rounded box-shadow w-500 h-240">
+        <div class="flex justify-between align-center gap-40">
+          <div class="flex flex-col gap-40">
+            <div>
+              <h3 class="text_box green">Search engine</h3>
+              <h3 class="text_box green">optimization</h3>
+            </div>
+            <div class="flex align-center justify-between gap-15">
+              <img src="./src/img/learnMore.svg" class="icon" alt="seo" />
+              <p class="pXL">learn more</p>
+            </div>
+          </div>
+
+          <div>
+            <img src="./src/img/serivces2.svg" class="w-212" alt="seo" />
+          </div>
+        </div>
+      </div>
+
+      <!-- PPC advertising -->
+      <div class="bg-green p-50 border border-rounded box-shadow w-500 h-240">
+        <div class="flex justify-between align-center gap-40">
+          <div class="flex flex-col gap-40">
+            <div>
+              <h3 class="text_box white">Pay-per-click</h3>
+              <h3 class="text_box white">advertising</h3>
+            </div>
+            <div class="flex align-center justify-between gap-15">
+              <img src="./src/img/learnMore.svg" class="icon" alt="seo" />
+              <p class="pXL">learn more</p>
+            </div>
+          </div>
+
+          <div>
+            <img src="./src/img/services3.svg" class="w-212" alt="seo" />
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Social Media Marketing -->
+      <div class="bg-black p-50 border border-rounded box-shadow w-500 h-240">
+        <div class="flex justify-between align-center gap-40">
+          <div class="flex flex-col gap-40">
+            <div>
+              <h3 class="text_box white">Social Media</h3>
+              <h3 class="text_box white">Marketing</h3>
+            </div>
+            <div class="flex align-center justify-between gap-15">
+              <img src="./src/img/learnMorewhite.svg" class="icon" alt="seo" />
+              <p class="pXL text-white">learn more</p>
+            </div>
+          </div>
+
+          <div>
+            <img src="./src/img/services4.svg" class="w-212" alt="seo" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Email Marketing -->
+      <div class="bg-gray p-50 border border-rounded box-shadow w-500 h-240">
+        <div class="flex justify-between align-center gap-40">
+          <div class="flex flex-col gap-40">
+            <div>
+              <h3 class="text_box green">Email</h3>
+              <h3 class="text_box green">Marketing</h3>
+            </div>
+            <div class="flex align-center justify-between gap-15">
+              <img src="./src/img/learnMore.svg" class="icon" alt="seo" />
+              <p class="pXL">learn more</p>
+            </div>
+          </div>
+
+          <div>
+            <img src="./src/img/Services5.svg" class="w-212" alt="seo" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Content Creation -->
+      <div class="bg-green p-50 border border-rounded box-shadow w-500 h-240">
+        <div class="flex justify-between align-center gap-40">
+          <div class="flex flex-col gap-40">
+            <div>
+              <h3 class="text_box white">Content</h3>
+              <h3 class="text_box white">Creation</h3>
+            </div>
+            <div class="flex align-center justify-between gap-15">
+              <img src="./src/img/learnMore.svg" class="icon" alt="seo" />
+              <p class="pXL text-black">learn more</p>
+            </div>
+          </div>
+
+          <div>
+            <img src="./src/img/services6.svg" class="w-212" alt="seo" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Analytics and Tracking -->
+      <div class="bg-black p-50 border border-rounded box-shadow w-500 h-240">
+        <div class="flex justify-between align-center gap-40">
+          <div class="flex flex-col gap-40">
+            <div>
+              <h3 class="text_box green">Analytics and</h3>
+              <h3 class="text_box green">Tracking</h3>
+            </div>
+            <div class="flex align-center justify-between gap-15">
+              <img src="./src/img/learnMorewhite.svg" class="icon" alt="seo" />
+              <p class="pXL text-white">learn more</p>
+            </div>
+          </div>
+
+          <div>
+            <img src="./src/img/Services7.svg" class="w-212" alt="seo" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section for proposal CTA -->
+  <section class="mt-140 container">
+    <div class=" bg-gray border-rounded flex justify-between align-center pl-60 p-15">
+      <div class="flex flex-col gap-40 w-50 p-50">
+        <h1 class="hm font-bold "> Let's make things happen </h1>
+        <p class="pXL font-light">
+          Contact us today to learn more about how our digital
+          marketing services can help your business grow and
+          succeed online.
+        </p>
+        <button class="btn_primary w-60">Get your free proposal</button>
+      </div>
+      <div class="flex flex-col">
+        <img src="./src/img/proposal.svg" alt="Character with Eyes" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Section for case studies -->
+  <section class="mt-140 container">
+    <div class="flex gap-40 align-center">
+      <h2 class="hL text_box font-semibold green">Case Studies</h2>
+      <p class="pL font-light">
+        Explore Real-Life Examples of Our Proven Digital Marketing
+        Success through Our Case Studies
+      </p>
+    </div>
+
+    <div class="bg-black border-rounded flex justify-between mt-60 p-15">
+      <div class="flex flex-col gap-40 p-50">
+        <p class="pL font-light text-white">
+          For a local restaurant, we
+          implemented a targeted PPC
+          campaign that resulted in a 50%
+          increase in website traffic and a
+          25% increase in sales.
+        </p>
+        <img src="./src/img/learnmoregreen.svg" class="w-50" alt="seo" />
+      </div>
+      <img src="./src/img/verticalline.svg" class="w-1" alt="seo" />
+      <div class="flex flex-col gap-40 p-50">
+        <p class="pL font-light text-white">
+          For a B2B software company, we
+          developed an SEO strategy that
+          resulted in a first page ranking
+          for key keywords and a 200%
+          increase in organic traffic.
+        </p>
+        <img src="./src/img/learnmoregreen.svg" class="w-50" alt="seo" />
+      </div>
+      <img src="./src/img/verticalline.svg" class="w-1" alt="seo" />
+      <div class="flex flex-col gap-40 p-50">
+        <p class="pL font-light text-white">
+          For a national retail chain, we
+          created a social media
+          marketing campaign that
+          increased followers by 25% and
+          generated a 20% increase in
+          online sales.
+        </p>
+        <img src="./src/img/learnmoregreen.svg" class="w-50" alt="seo" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Section for working process -->
+  <section class="mt-140 container">
+    <div class="flex gap-40 align-center">
+      <h2 class="hL text_box font-semibold green">Our Working Process</h2>
+      <p class="pL font-light">
+        Step-by-Step Guide to Achieving
+        Your Business Goals
+      </p>
+    </div>
+
+    <!-- Green one -->
+    <div
+      class="bg-green border border-rounded box-shadow flex-col justify-between mt-60 pr-60 pl-60 pt-41 pb-41 gap-30">
+      <div class="flex  space_between align-center ">
+        <div class="flex gap-15 align-center">
+          <h3 class="hXL text-black font-bold">01</h3>
+          <h4 class="hm text-black font-semibold">Consultation</h4>
+        </div>
+        <img src="/src/img/minus.svg" class="icon">
+      </div>
+      <img src="./src/img/horizontalline.svg" class="w=90 h-1" alt="seo" />
+      <p class="pL font-light align-center mt-30">
+        During the initial consultation, we will discuss your business goals and objectives, target audience, and
+        current marketing
+        efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.
+      </p>
+    </div>
+    <!-- Grey ones -->
+    <div class="bg-gray border border-rounded box-shadow flex flex-col justify-between mt-20 pr-60 pl-60 pt-41 pb-41">
+      <div class="flex  space_between align-center ">
+        <div class="flex gap-15 align-center">
+          <h3 class="hXL text-black font-bold">02</h3>
+          <h4 class="hm text-black font-semibold">Research and Strategy Development</h4>
+        </div>
+        <img src="/src/img/plus.svg" class="icon">
+      </div>
+    </div>
+    <div class="bg-gray border border-rounded box-shadow flex flex-col justify-between mt-20 pr-60 pl-60 pt-41 pb-41">
+      <div class="flex  space_between align-center ">
+        <div class="flex gap-15 align-center">
+          <h3 class="hXL text-black font-bold">03</h3>
+          <h4 class="hm text-black font-semibold">Implementation</h4>
+        </div>
+        <img src="/src/img/plus.svg" class="icon">
+      </div>
+    </div>
+    <div class="bg-gray border border-rounded box-shadow flex flex-col justify-between mt-20 pr-60 pl-60 pt-41 pb-41">
+      <div class="flex  space_between align-center ">
+        <div class="flex gap-15 align-center">
+          <h3 class="hXL text-black font-bold">04</h3>
+          <h4 class="hm text-black font-semibold">Monitoring and Optimization</h4>
+        </div>
+        <img src="/src/img/plus.svg" class="icon">
+      </div>
+    </div>
+    <div class="bg-gray border border-rounded box-shadow flex flex-col justify-between mt-20 pr-60 pl-60 pt-41 pb-41">
+      <div class="flex  space_between align-center ">
+        <div class="flex gap-15 align-center">
+          <h3 class="hXL text-black font-bold">05</h3>
+          <h4 class="hm text-black font-semibold">Reporting and Communication</h4>
+        </div>
+        <img src="/src/img/plus.svg" class="icon">
+      </div>
+    </div>
+    <div class="bg-gray border border-rounded box-shadow flex flex-col justify-between mt-20 pr-60 pl-60 pt-41 pb-41">
+      <div class="flex  space_between align-center ">
+        <div class="flex gap-15 align-center">
+          <h3 class="hXL text-black font-bold">05</h3>
+          <h4 class="hm text-black font-semibold">Continual Improvement</h4>
+        </div>
+        <img src="/src/img/plus.svg" class="icon">
+      </div>
+    </div>
+  </section>
+
+  <!-- Section for Team -->
+  <section class="mt-140 container">
+    <div class="flex gap-40 align-center">
+      <h2 class="hL text_box font-semibold green">Team</h2>
+      <p class="pL font-light">
+        Meet the skilled and experienced team behind our <br>
+        successful digital marketing strategies
+      </p>
+    </div>
+    <!-- Members' portraits first row -->
+    <div class="flex justify-between gap-40 mt-60">
+      <div class="border border-rounded box-shadow flex-col gap-28 pt-40 pb-40 pr-35 pl-35">
+        <div class="flex gap-20">
+          <img src="/src/img/member1.svg" class="w-40" alt="seo">
+          <div class="flex-col">
+            <h3 class="font-semibold PXL">John Smith</h3>
+            <h6 class="font-light PL">CEO and Founder</h6>
+          </div>
+          <img src="/src/img/linkedin.svg" class="icon" alt="seo">
+        </div>
+        <img src="/src/img/horiz.svg" class="w-100 mt-28" alt="seo">
+        <p class="PL font-light mt-28">
+          10+ years of experience in digital<br>
+          marketing. Expertise in SEO, PPC,<br>
+          and content strategy<br>
         </p>
       </div>
-      <!-- Div For Learn More Rectangles  -->
-      <div class="flex gap-40 align-center mt-60 flex-wrap">
 
-        <!-- SEO rectangle -->
-        <div class="bg-gray p-50 border border-rounded box-shadow w-500 h-240">
-          <div class="flex justify-between align-center gap-40">
-            <div class="flex flex-col gap-40">
-              <div>
-                <h3 class="text_box green">Search engine</h3>
-                <h3 class="text_box green">optimization</h3>
-              </div>
-              <div class="flex align-center justify-between gap-15">
-                <img src="./src/img/learnMore.svg" class="icon" alt="seo" />
-                <p class="pXL">learn more</p>
-              </div>
-            </div>
+      <div class="border border-rounded box-shadow flex-col gap-28 pt-40 pb-40 pr-35 pl-35">
+        <div class="flex gap-20">
+          <img src="/src/img/member2.svg" class="w-40" alt="seo">
+          <div class="flex-col">
+            <h3 class="font-semibold PXL">Jane Doe</h3>
+            <h6 class="font-light PL">Director of Operations</h6>
+          </div>
+          <img src="/src/img/linkedin.svg" class="icon" alt="seo">
+        </div>
+        <img src="/src/img/horiz.svg" class="w-100 mt-28" alt="seo">
+        <p class="PL font-light mt-28">
+          7+ years of experience in project <br>
+          management and team leadership. <br>
+          Strong organizational and <br>
+          communication skills
+        </p>
+      </div>
 
-            <div>
-              <img src="./src/img/serivces2.svg" class="w-212" alt="seo" />
-            </div>
+      <div class="border border-rounded box-shadow flex-col gap-28 pt-40 pb-40 pr-35 pl-35">
+        <div class="flex gap-20">
+          <img src="/src/img/member3.svg" class="w-40" alt="seo">
+          <div class="flex-col">
+            <h3 class="font-semibold PXL">Michael Brown</h3>
+            <h6 class="font-light PL">Senior SEO Specialist</h6>
+          </div>
+          <img src="/src/img/linkedin.svg" class="icon" alt="seo">
+        </div>
+        <img src="/src/img/horiz.svg" class="w-100 mt-28" alt="seo">
+        <p class="PL font-light mt-28">
+          5+ years of experience in SEO and<br>
+          content creation. Proficient in<br>
+          keyword research and on-page<br>
+          optimization
+        </p>
+      </div>
+    </div>
+
+    <!-- Members' portraits second row -->
+    <div class="flex justify-between gap-40 mt-40">
+      <div class="border border-rounded box-shadow flex-col gap-28 pt-40 pb-40 pr-35 pl-35 ">
+        <div class="flex gap-20">
+          <img src="/src/img/member4.svg" class="w-40" alt="seo">
+          <div class="flex-col align-bottom ">
+            <h3 class="font-semibold PXL">Emily Johnson</h3>
+            <h6 class="font-light PL">PPC Manager</h6>
+          </div>
+          <img src="/src/img/linkedin.svg" class="icon" alt="seo">
+        </div>
+        <img src="/src/img/horiz.svg" class="w-100 mt-28" alt="seo">
+        <p class="PL font-light mt-28">
+          3+ years of experience in paid<br>
+          search advertising. Skilled in<br>
+          campaign management and<br>
+          performance analysis<br>
+        </p>
+      </div>
+
+      <div class="border border-rounded box-shadow flex-col gap-28 pt-40 pb-40 pr-35 pl-35">
+        <div class="flex gap-20">
+          <img src="/src/img/member5.svg" class="w-40" alt="seo">
+          <div class="flex-col">
+            <h3 class="font-semibold PXL">Brian Williams</h3>
+            <h6 class="font-light PL">Social Media Specialist</h6>
+          </div>
+          <img src="/src/img/linkedin.svg" class="icon" alt="seo">
+        </div>
+        <img src="/src/img/horiz.svg" class="w-100 mt-28" alt="seo">
+        <p class="PL font-light mt-28">
+          4+ years of experience in social<br>
+          media marketing. Proficient in<br>
+          creating and scheduling content,<br>
+          analyzing metrics, and building<br>
+          engagement<br>
+        </p>
+      </div>
+
+      <div class="border border-rounded box-shadow flex-col gap-28 pt-40 pb-40 pr-35 pl-35">
+        <div class="flex gap-20">
+          <img src="/src/img/member6.svg" class="w-40" alt="seo">
+          <div class="flex-col">
+            <h3 class="font-semibold PXL">Sarah Kim</h3>
+            <h6 class="font-light PL">Content Creator</h6>
+          </div>
+          <img src="/src/img/linkedin.svg" class="icon" alt="seo">
+        </div>
+        <img src="/src/img/horiz.svg" class="w-100 mt-28" alt="seo">
+        <p class="PL font-light mt-28">
+          2+ years of experience in writing<br>
+          and editing<br>
+          Skilled in creating compelling, SEO-<br>
+          optimized content for various <br>
+          industries<br>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-40 container flex justify-right">
+    <!-- See all team button -->
+    <button class="btn_primary w-30">
+      <h6 class="PL font-light text-white">See all team</h6>
+    </button>
+  </section>
+
+  <!-- Section for Testiomonials -->
+  <section class="mt-100 container space_between align-center">
+    <div class="flex gap-40 align-center">
+      <h2 class="hL text_box font-semibold green">Testimonials</h2>
+      <p class="pL font-light">
+        Hear from Our Satisfied Clients: Read Our Testimonials <br>
+        to Learn More about Our Digital Marketing Services
+      </p>
+    </div>
+
+    <!-- Block for testimonials -->
+    <div class="bg-black mt-60 flex flex-col border-rounded pt-84 pb-68 hidden align-center">
+      <!-- Cards Together -->
+      <div class="flex w-1918 relative gap-50">
+        <!-- card 1 -->
+        <div class="flex-col gap-50  ">
+          <div class="border-green border-rounded p-40">
+            <p class="pxl font-light text-white">
+              "We have been working with Positivus for the past year
+              and have seen a significant increase in website traffic
+              and leads as a result of their efforts. The team is
+              professional, responsive, and truly cares about the
+              success of our business. We highly recommend Positivus
+              to any company looking to grow their online presence."
+            </p>
+          </div>
+          <div class="mt-40">
+            <h3 class="font-semibold text-green PXL">John Smith</h3>
+            <h6 class="font-light text-white PL">Marketing Director at XYZ Corp</h6>
           </div>
         </div>
 
-        <!-- PPC advertising -->
-        <div class="bg-green p-50 border border-rounded box-shadow w-500 h-240">
-          <div class="flex justify-between align-center gap-40">
-            <div class="flex flex-col gap-40">
-              <div>
-                <h3 class="text_box white">Pay-per-click</h3>
-                <h3 class="text_box white">advertising</h3>
-              </div>
-              <div class="flex align-center justify-between gap-15">
-                <img src="./src/img/learnMore.svg" class="icon" alt="seo" />
-                <p class="pXL">learn more</p>
-              </div>
-            </div>
-
-            <div>
-              <img src="./src/img/services3.svg" class="w-212" alt="seo" />
-            </div>
+        <!-- card 2 -->
+        <div class="flex-col gap-50  ">
+          <div class="border-green border-rounded p-40">
+            <p class="pxl font-light text-white">
+              "We have been working with Positivus for the past year
+              and have seen a significant increase in website traffic
+              and leads as a result of their efforts. The team is
+              professional, responsive, and truly cares about the
+              success of our business. We highly recommend Positivus
+              to any company looking to grow their online presence."
+            </p>
+          </div>
+          <div class="mt-40">
+            <h3 class="font-semibold text-green PXL">John Smith</h3>
+            <h6 class="font-light text-white PL">Marketing Director at XYZ Corp</h6>
           </div>
         </div>
 
-
-        <!-- Social Media Marketing -->
-        <div class="bg-black p-50 border border-rounded box-shadow w-500 h-240">
-          <div class="flex justify-between align-center gap-40">
-            <div class="flex flex-col gap-40">
-              <div>
-                <h3 class="text_box white">Social Media</h3>
-                <h3 class="text_box white">Marketing</h3>
-              </div>
-              <div class="flex align-center justify-between gap-15">
-                <img
-                  src="./src/img/learnMorewhite.svg"
-                  class="icon"
-                  alt="seo"
-                />
-                <p class="pXL text-white">learn more</p>
-              </div>
-            </div>
-
-            <div>
-              <img src="./src/img/services4.svg" class="w-212" alt="seo" />
-            </div>
+        <!-- card 3   -->
+        <div class="flex-col gap-50  ">
+          <div class="border-green border-rounded p-40">
+            <p class="pxl font-light text-white">
+              "We have been working with Positivus for the past year
+              and have seen a significant increase in website traffic
+              and leads as a result of their efforts. The team is
+              professional, responsive, and truly cares about the
+              success of our business. We highly recommend Positivus
+              to any company looking to grow their online presence."
+            </p>
           </div>
-        </div>
-
-        <!-- Email Marketing -->
-        <div class="bg-gray p-50 border border-rounded box-shadow w-500 h-240">
-          <div class="flex justify-between align-center gap-40">
-            <div class="flex flex-col gap-40">
-              <div>
-                <h3 class="text_box green">Email</h3>
-                <h3 class="text_box green">Marketing</h3>
-              </div>
-              <div class="flex align-center justify-between gap-15">
-                <img src="./src/img/learnMore.svg" class="icon" alt="seo" />
-                <p class="pXL">learn more</p>
-              </div>
-            </div>
-
-            <div>
-              <img src="./src/img/Services5.svg" class="w-212" alt="seo" />
-            </div>
+          <div class="mt-40">
+            <h3 class="font-semibold text-green PXL">John Smith</h3>
+            <h6 class="font-light text-white PL">Marketing Director at XYZ Corp</h6>
           </div>
-        </div>
-
-        <!-- Content Creation -->
-        <div class="bg-green p-50 border border-rounded box-shadow w-500 h-240">
-            <div class="flex justify-between align-center gap-40">
-              <div class="flex flex-col gap-40">
-                <div>
-                  <h3 class="text_box white">Content</h3>
-                  <h3 class="text_box white">Creation</h3>
-                </div>
-                <div class="flex align-center justify-between gap-15">
-                  <img
-                    src="./src/img/learnMore.svg"
-                    class="icon"
-                    alt="seo"
-                  />
-                  <p class="pXL text-black">learn more</p>
-                </div>
-              </div>
-  
-              <div>
-                <img src="./src/img/services6.svg" class="w-212" alt="seo" />
-              </div>
-            </div>
-          </div>
-
-        <!-- Analytics and Tracking -->
-        <div class="bg-black p-50 border border-rounded box-shadow w-500 h-240">
-            <div class="flex justify-between align-center gap-40">
-              <div class="flex flex-col gap-40">
-                <div>
-                  <h3 class="text_box green">Analytics and</h3>
-                  <h3 class="text_box green">Tracking</h3>
-                </div>
-                <div class="flex align-center justify-between gap-15">
-                  <img src="./src/img/learnMorewhite.svg" class="icon" alt="seo" />
-                  <p class="pXL text-white">learn more</p>
-                </div>
-              </div>
-  
-              <div>
-                <img src="./src/img/Services7.svg" class="w-212" alt="seo" />
-              </div>
-            </div>
-          </div>
-       </div>
-    </section>
-
-    <!-- Section for proposal CTA -->
-    <section class="mt-140 container">
-      <div class=" bg-gray border-rounded flex justify-between align-center pl-60 p-15">
-        <div class="flex flex-col gap-40 w-50 p-50">
-            <h1 class="hm font-bold "> Let's make things happen </h1>
-            <p class="pXL font-light">
-                Contact us today to learn more about how our digital
-                marketing services can help your business grow and
-                succeed online.
-              </p>
-              <button class="btn_primary w-60">Get your free proposal</button>
-        </div>
-        <div class="flex flex-col">
-            <img src="./src/img/proposal.svg" alt="seo"/>
         </div>
       </div>
-    </section>
+      <img src="/src/img/slider.svg" alt="seo" class="w-40 mt-120">
+    </div>
+  </section>
+</body>
 
-    <!-- Section for case studies -->
-    <section class="mt-140 container">
-        <div class="flex gap-40 align-center">
-          <h2 class="hL text_box font-semibold green">Case Studies</h2>
-          <p class="pL font-light">
-            Explore Real-Life Examples of Our Proven Digital Marketing
-            Success through Our Case Studies
-          </p>
-        </div>
-
-        <div class="bg-black border-rounded flex justify-between mt-60 p-15">
-            <div class="flex flex-col gap-40 p-50">
-                <p class = "pL font-light text-white">
-                    For a local restaurant, we
-                    implemented a targeted PPC
-                    campaign that resulted in a 50%
-                    increase in website traffic and a
-                    25% increase in sales.
-                </p>
-                <img src="./src/img/learnmoregreen.svg" class="w-50" alt="seo" />
-            </div>
-            <img src="./src/img/verticalline.svg" class="w-1" alt="seo" />
-            <div class="flex flex-col gap-40 p-50">
-                <p class = "pL font-light text-white">
-                    For a B2B software company, we
-                    developed an SEO strategy that
-                    resulted in a first page ranking
-                    for key keywords and a 200%
-                    increase in organic traffic.
-                </p>
-                <img src="./src/img/learnmoregreen.svg" class="w-50" alt="seo" />
-            </div>
-            <img src="./src/img/verticalline.svg" class="w-1" alt="seo" />
-            <div class="flex flex-col gap-40 p-50">
-                <p class = "pL font-light text-white">
-                    For a national retail chain, we
-                    created a social media
-                    marketing campaign that
-                    increased followers by 25% and
-                    generated a 20% increase in
-                    online sales.
-                </p>
-                <img src="./src/img/learnmoregreen.svg" class="w-50" alt="seo" />
-            </div>
-        </div>
-    </section>
-
-    <!-- Section for working process -->
-    <section class="mt-140 container">
-        <div class="flex gap-40 align-center">
-          <h2 class="hL text_box font-semibold green">Our Working Process</h2>
-          <p class="pL font-light">
-            Step-by-Step Guide to Achieving 
-            Your Business Goals
-          </p>
-        </div>   
-        
-        <!-- Green one -->
-        <div class="bg-green border border-rounded box-shadow flex-col justify-between mt-60 pr-60 pl-60 pt-41 pb-41 gap-30">
-            <div class="flex  space_between align-center ">
-                <div class="flex gap-15 align-center">
-                    <h3 class="hXL text-black font-bold">01</h3>
-                    <h4 class="hm text-black font-semibold">Consultation</h4>
-                </div>
-                <img src="/src/img/minus.svg" class="icon">
-            </div>
-            <img src="./src/img/horizontalline.svg" class="w=90 h-1" alt="seo" />
-            <p class="pL font-light align-center mt-30">
-                During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing
-                efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.
-            </p>
-        </div>
-        <!-- Grey ones -->
-        <div class="bg-gray border border-rounded box-shadow flex flex-col justify-between mt-20 pr-60 pl-60 pt-41 pb-41">
-            <div class="flex  space_between align-center ">
-                <div class="flex gap-15 align-center">
-                    <h3 class="hXL text-black font-bold">02</h3>
-                    <h4 class="hm text-black font-semibold">Research and Strategy Development</h4>
-                </div>
-                <img src="/src/img/plus.svg" class="icon">
-            </div>
-        </div>
-        <div class="bg-gray border border-rounded box-shadow flex flex-col justify-between mt-20 pr-60 pl-60 pt-41 pb-41">
-            <div class="flex  space_between align-center ">
-                <div class="flex gap-15 align-center">
-                    <h3 class="hXL text-black font-bold">03</h3>
-                    <h4 class="hm text-black font-semibold">Implementation</h4>
-                </div>
-                <img src="/src/img/plus.svg" class="icon">
-            </div>
-        </div>
-        <div class="bg-gray border border-rounded box-shadow flex flex-col justify-between mt-20 pr-60 pl-60 pt-41 pb-41">
-            <div class="flex  space_between align-center ">
-                <div class="flex gap-15 align-center">
-                    <h3 class="hXL text-black font-bold">04</h3>
-                    <h4 class="hm text-black font-semibold">Monitoring and Optimization</h4>
-                </div>
-                <img src="/src/img/plus.svg" class="icon">
-            </div>
-        </div>
-        <div class="bg-gray border border-rounded box-shadow flex flex-col justify-between mt-20 pr-60 pl-60 pt-41 pb-41">
-            <div class="flex  space_between align-center ">
-                <div class="flex gap-15 align-center">
-                    <h3 class="hXL text-black font-bold">05</h3>
-                    <h4 class="hm text-black font-semibold">Reporting and Communication</h4>
-                </div>
-                <img src="/src/img/plus.svg" class="icon">
-            </div>
-        </div>
-        <div class="bg-gray border border-rounded box-shadow flex flex-col justify-between mt-20 pr-60 pl-60 pt-41 pb-41">
-            <div class="flex  space_between align-center ">
-                <div class="flex gap-15 align-center">
-                    <h3 class="hXL text-black font-bold">05</h3>
-                    <h4 class="hm text-black font-semibold">Continual Improvement</h4>
-                </div>
-                <img src="/src/img/plus.svg" class="icon">
-            </div>
-        </div>
-    </section>
-
-    <!-- Section for Team -->
-    <section class="mt-140 container">
-        <div class="flex gap-40 align-center">
-          <h2 class="hL text_box font-semibold green">Team</h2>
-          <p class="pL font-light">
-            Meet the skilled and experienced team behind our
-            successful digital marketing strategies
-          </p>
-        </div>   
-  </body>
 </html>
