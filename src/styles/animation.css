@@ -1,15 +1,13 @@
-.animated-eye {
-    animation: blink 1s infinite;
-}
-
 @keyframes blink {
     0%, 100% {
-        ry: 20; /* Full height */
-        fill: white; /* Opened color */
+        fill: white;
     }
     50% {
-        ry: 10; /* Shortened for blink */
-        fill: green; /* Closed color */
+        fill: #b9ff66;
     }
+}
+
+.animated-eye {
+    animation: blink 1s infinite; /* Adjust duration as needed */
 }
 
